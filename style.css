@@ -51,7 +51,7 @@ background-position: center;
      .o1-title{
       width:100%;
       position:absolute;
-      top:485%;
+      top:403%;
       transform: translateY(-50%);
       text-align: center;color:beige;
      }
@@ -116,7 +116,7 @@ background-position: center;
      .a1-title{
       width:100%;
       position:absolute;
-      top:335%;
+      top:280%;
       transform: translateY(-50%);
       text-align: center;
       color:beige;
