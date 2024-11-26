@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration page</title>
+        <style>
+            *{ 
+                padding: 0;
+                margin: 0;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                
+            }
+            body{margin:0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background:radial-gradient(20,36,48,66) ;
+                border: none;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                display: flex;
+                height: 100vh;
+                background-image: url(c:\Users\srushti\Documents\premium_photo-1685656440548-d8cad874d5d8.avif);
+             }
+             .rform{
+                box-sizing: border-box;
+                width: 350px;
+                padding: 16px;
+                border-radius:12px 22px ;
+                border-top: 44px;
+                background-color:rgb(165, 205, 237);
+                font-size: 18px; 
+                box-shadow:6px,30px,16px rgba(0,0,0,0.2) ;
+             }
+             ::placeholder{
+                color: rgb(86, 100, 100);
+             }
+             input{
+              border: radius 6PX;
+             }
+
+             div.main{
+                width: 400px;
+                margin: 100px auto 0px auto;
+             }
+             h1{ 
+                font-style: initial;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             }
+        </style>
+    </head>
+    <body><div class="main">
+        <div class="rform">
+            <h1> STUDENT ENQUIRY FORM </h1>
+            <form name="enrollform"  onsubmit="return validationform()" method="post">
+              <label for="Full name"> FULL NAME:</label>
+              <input type="text" name="full name" id="fname" placeholder="Enter your full name">
+              <br>
+              <br>
+              <label for="college name">COLLEGE NAME:</label>
+              <input type="text" name=" college name" id="college name" placeholder="Enter your college ">
+              <br> 
+              <br>
+              <label for=" course"> COURSE: </label>
+              <select name="course" placeholder="select course">
+                <option value="select course"></option>
+                <option value="civil"> CIVIL</option>
+              <option value="CSE"> CSE </option>
+              <option value="IT"> IT</option>
+               <option value="IT">ENTC</option>
+               <option value="VLSI"> VLSI</option>
+               <option value="AI/DS"> AI/DS</option>
+               </select>
+               <br>
+               <br>
+               <label FOR="email id"> EMAIL ID: </label>
+                <input type="email" name="email id" id="email id" placeholder="Enter ypur email address">
+                <br>
+                 <br>
+                <label for="contact no."> CONTACT NO:</label>
+                <input type="contact no." name="contact no." id="contact no." placeholder="Enter your contact no.">
+                <br>
+                <br>
+                <label for="query"> QUERY:</label>
+                <input type="query" name="query" id="query">
+                <br>
+                <br>
+                <input type="submit" value="SUBMIT" name="submit"   id="submit">
+                <input type="reset" value="RESET">
+                
+            
+
+            </form>
+            <script>
+                function validationform(){
+                    let x= document.forms["enrollform"]["fname"].value;
+                    if (x== "") {
+                        alert("name must be filled out");
+
+                    }
+                }
+                function validationform(){
+                    let y= document.forms["enrollform"]["contact no."].value;
+                    if (y== "") {
+                        alert("contact no. must be filled out");
+
+                    }
+                }
+            </script>
+        </div>
+        </div></div>
+    </body>
+</html>

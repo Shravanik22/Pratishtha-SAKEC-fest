@@ -1,0 +1,620 @@
+
+ *{
+    margin:0;
+    padding:0;
+   
+   }
+   .pblog{
+      margin-top: 50px;
+   }
+   .b1-heading{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family: "Protest Revolution", sans-serif;
+      font-weight: 400;
+     font-style: normal;
+     color:whitesmoke;
+     font-size: 50px;
+      }
+      .b1-sub{
+          font-family: "Amatic SC", sans-serif;
+          font-weight: 600;
+          font-style: normal;
+      color:white;
+      font-size: 24px;
+
+}
+ 
+.b1-banner{
+width:100%;
+height:100vh;
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) 
+,url("b1-bg.jpg");
+background-size: cover;
+background-position: center;
+}
+
+   .olympus1{
+    
+      margin-top: 50px;
+      width:100%;
+      background-image:linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.2)),url("o1-bg.jpg");
+      background-size: cover;
+      background-position: center;
+   }
+   .o1-logo{
+      margin-top: 50px;
+      margin-left: 30px;
+     }
+ 
+     .o1-title{
+      width:100%;
+      position:absolute;
+      top:485%;
+      transform: translateY(-50%);
+      text-align: center;color:beige;
+     }
+    .o1-title h3{
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 180px;
+    font-weight: 300;
+    font-style: normal;
+    margin-top:40px;
+  }
+ .o1-title h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+ }
+ .o1-title p{
+     font-family: "Cantarell", sans-serif;
+     font-size: 20px;
+     
+ }
+ 
+ .o1-continuation h4{
+   font-family: "Dancing Script", cursive;
+   text-align: left;
+   font-size:40px;
+}
+ .o1-row1{
+     border: 1cm;
+     margin-left:40px;
+     box-sizing: border-box;
+ }
+ .o1-row2{
+     margin-left: 300px;    
+ }
+ .o1-row3{
+     margin-left: 300px;
+ }
+ .o1-row4{
+     margin-left: 300px;
+ }
+
+   .aurum1{
+      width:100%;
+      margin-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.40)) ,url("bgA1.jpg");
+    background-size:cover;
+    
+    background-position: center;
+
+   }
+   
+      
+    .a1-continuation h4{
+      font-family: "Dancing Script", cursive;
+      text-align: left;
+      font-size:40px;
+   }
+
+    .a1-logo{
+      margin-top: 50px;
+      margin-left: 30px;
+     }
+     .a1-title{
+      width:100%;
+      position:absolute;
+      top:335%;
+      transform: translateY(-50%);
+      text-align: center;
+      color:beige;
+   }
+   .a1-title h4{
+      font-family: "Protest Revolution", sans-serif;
+      font-size: 180px;
+      font-weight: 300;
+      font-style: normal;
+      margin-top:110px;
+    }
+    .a1-title h3{
+      font-family: "Dancing Script", cursive;
+      font-size:40px;}
+
+.a1-title p{
+      font-family: "Cantarell", sans-serif;
+      font-size: 16px;
+   }
+   
+   .a1-row1{
+   border: 1cm;
+   margin-left:90px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction:column;
+   }
+   
+  
+body{
+   font-family: sans-serif;
+   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("bgImg.jpg");
+}
+h1{color: #fff;}
+ .header {
+   top:0;
+   left: 0;
+   z-index: 1000;
+   width:100%;
+   background-color:rgba(31,30,30,0.2);
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   position:fixed;
+   color: #eedddd;
+   padding: 10px 0;
+   text-align: center;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 10px;
+}
+
+nav img{
+   padding-left: 13px;
+   width: 100px;
+   }
+.nav-links {
+   flex: 1;
+   text-align: right;
+   padding-left: 10px;
+}
+ .nav-links ul li {
+   list-style: none;
+   display: inline-block;
+   padding:15px 15px;
+   position: relative;
+   margin-left: 10px;
+} 
+
+
+  .nav-links ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px; 
+  }
+
+  .nav-links ul li::after{
+   content: '';
+   height: 2px;
+   width: 0%;
+   background: #f44336;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+  }
+  .nav-links ul li:hover::after
+  {
+  width: 100%;
+  }
+  .text-box{
+   width: 90%;
+   color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;;
+  }
+  .text-box h3{
+   font-family: "Protest Revolution", sans-serif;
+   font-size: 180px;
+   font-weight: 300;
+   font-style: normal;
+  }
+.text-box h6{
+   color:#fff;
+   font-size: 30px;
+   position: relative;
+   font-weight: 150;
+   margin: 10px 0 20px;
+   margin-bottom: 0px;}
+   
+   .menu-btn{
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   width: 40px;
+   cursor: pointer;
+   }
+
+
+.course{
+   margin: auto;
+   width: 80%;
+   text-align: center;
+   padding-top: 650px;
+}
+p{
+   color: #fff;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 10px;
+}
+.p1{
+color: gray;
+}
+.row{
+   margin-top: 2%;
+   display: flex;
+   justify-content: space-between;
+}
+.course-col{
+   flex-basis:25%;
+   background: #fff3f3;
+   border-radius: 10px;
+   height: 320px;
+   width: 80px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 10px;
+   padding:16px 8px;
+   box-sizing:border-box;
+   transition-duration: 0.5s;
+   position:relative;
+   overflow:hidden;
+}
+h4{
+   font-family:cursive;
+   text-align: center;
+   font-size: 40;
+   font-weight: 600;
+   margin: 5px 0;
+}
+.course-col:hover{
+box-shadow: 0 0 20px 0px goldenrod;
+}
+@media(max-width:700px) {
+   .row{
+        flex-direction:column;
+   } 
+   .course-col{
+      height: 450px;
+      width: 250px;
+   }
+}
+.course-col img{
+   width: 90%;
+}
+.layer{
+   background:transparent;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   transition-delay: 1s;
+   transition-duration: 1s;
+}
+.layer:hover{
+   background: rgba(4, 9, 30, 0.7);
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   position: absolute;
+}
+.layer .button {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   padding: 6px 10px;
+   background-color: #ff3c00;
+   color: white;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: bold;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: opacity 0.3s ease-in-out 1.5s;
+   opacity: 0; /* Initially hidden */
+   z-index: 10;
+}
+.layer:hover .button {
+   opacity: 1; /* Visible on hover */
+}
+#btn1 a:link{
+color:white;
+text-decoration: none;
+}
+#btn1 a:hover{
+   color:gold;
+   text-decoration: none;
+}
+#btn2 a:link{
+   color: white;
+   text-decoration: none;
+   }
+   #btn2 a:hover{
+      color:gold;
+      text-decoration: none;
+   }
+   #btn3 a:link{
+      color:white;
+      text-decoration: none;
+      }
+      #btn3 a:hover{
+         color:gold;
+         text-decoration: none;
+      }
+.cta{
+   margin: 100px auto;
+
+   width: 80%;
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("enrollment.jpg");
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+   text-align: center;
+   padding: 100px 0;
+}
+.cta h1{
+   color: #fff;
+   margin-bottom:40px; 
+   padding: 0;
+}
+.hero-btn a{
+   width: 150px;
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   border: 1px solid #fff;
+   padding: 12px 34px;
+   font-size: 13px;
+   position: relative;
+   z-index: 1;
+   transition: color 1s;
+}
+.hero-btn a span{
+   width: 0;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background:#f44336;
+   z-index: -1;
+   transition: 1s;  
+}
+.hero-btn:hover span{
+   width: 100%;
+   background: yellow;  
+}
+.hero-btn a:hover{
+   color: #000;
+}
+
+
+.contact{
+   margin: auto;
+   width: 100%;
+   text-align: center;
+   padding-top:130px;
+   align-items: center;
+}
+.contact h1{
+   margin-bottom: 10px;
+}
+.contact-items{
+margin-top: 2%;
+   display: flex;
+   justify-content: space-between;
+   margin: 0;
+}
+
+.continfo{
+   flex-basis:22%;
+   border-radius: 10px;
+   height: 200px;
+   width: 250px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 10px;
+   padding:16px 8px;
+   box-sizing:border-box;
+   transition-duration: 0.5s;
+   position:relative;
+   overflow:hidden;
+	box-shadow:0px 0px 18px 0px#0000002c;
+	transition: 0.5s ease box-shadow;
+}
+.continfo:hover {
+	box-shadow:0px 0px 5px 0px#0000002c;
+}
+.continfo img{
+   object-fit: contain;
+	width: 70px;
+   height: 70px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.contact-info h1 {
+   width: 100%;
+   text-align: left;
+   padding-left: 20px;
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.contact-info p{
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+@media(max-width:800px) {
+
+   .contact{
+        flex-direction:column;
+   } 
+   .continfo{
+      height: 250px;
+      width: 350px;
+   }
+}
+
+.footer{
+   color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+   width: 100%;
+   text-align: center;
+   padding: 30px 0;
+}
+div.social-media {
+   display: flex;
+   justify-content: center; /* Align icons in the center */
+   gap: 20px; /* Add space between icons */
+   padding: 10px;
+   
+}
+
+/* Style for social media icons */
+div.social-media .icon {
+   width: 40px; /* Set icon size */
+   height: 40px;
+   transition: transform 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for icons */
+div.social-media .icon:hover {
+   transform: scale(1.5); /* Slightly enlarge on hover */
+   cursor: pointer;
+}
+
+
+.footer p{
+   color: white;
+	font-size: 1.3rem;
+
+}
+
+
+
+.verve1{
+   width:100%;
+   margin-top: 50px;
+ background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url("v1-bg.jpg");
+ background-size: cover;
+ background-position: center;
+}
+.title h3{
+   font-family: "Protest Revolution", sans-serif;
+   font-size: 180px;
+   font-weight: 300;
+   font-style: normal;
+   margin-top:110px;
+ }
+ .title h4{
+   font-family: "Dancing Script", cursive;
+   font-size:40px;}
+   
+.title p{
+   font-family: "Cantarell", sans-serif;
+   font-size: 16px;
+}
+ .v1-logo{
+   margin-top: 50px;
+   margin-left: 30px;
+  }
+  .title{
+   width:100%;
+   position:absolute;
+   top:198%;
+   transform: translateY(-50%);
+   text-align: center;
+   color:beige;
+}
+.continuation{
+color: antiquewhite;
+margin-top: 250px;
+width:100%;
+text-align: left;
+}
+
+div.gallery-container {
+   display: flex;
+   flex-wrap: nowrap; /* Ensure items stay on one line */
+   gap: 50px; /* Add space between items */
+   overflow-x: auto; /* Enable horizontal scrolling if necessary */
+   padding: 10px;
+}
+
+div.gallery {
+   margin-left: 50px;
+   border: 1px solid #ccc;
+   width: 200px;
+   flex-shrink: 0;/* Prevent items from shrinking */
+   padding: 10px;
+   background-color:lightgray;
+ }
+ 
+ div.gallery:hover {
+   border: 5px solid #fff;
+ }
+ 
+ div.gallery img {
+   width: 100%;
+   height: auto;
+ }
+ 
+ div.desc {
+   padding: 5px;
+   text-align: center;
+   font-size: 14px;
+   color: #000;
+ }
+ div.gallery-item h4 {
+   margin: 0;
+   font-family: "Dancing Script", cursive;
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+   color: #fff;
+   margin-bottom: 5px; /* Add space between heading and border */
+}
+
+div.gallery-1 {
+   margin-left: 50px;
+   border: 1px solid #ccc;
+   width: 200px;
+   flex-shrink: 0;/* Prevent items from shrinking */
+   padding: 10px;
+   background-color: lightpink;
+ }
+ div.gallery-1:hover {
+   border: 5px solid #fff;
+ }
+ div.gallery-2 {
+   margin-left: 50px;
+   border: 1px solid #ccc;
+   width: 200px;
+   flex-shrink: 0;/* Prevent items from shrinking */
+   padding: 10px;
+   background-color: khaki;
+ }
+ div.gallery-2:hover {
+   border: 5px solid #fff;
+ }
