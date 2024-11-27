@@ -35,115 +35,7 @@ background-size: cover;
 background-position: center;
 }
 
-   .olympus1{
-    
-      margin-top: 50px;
-      width:100%;
-      background-image:linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.2)),url("o1-bg.jpg");
-      background-size: cover;
-      background-position: center;
-   }
-   .o1-logo{
-      margin-top: 50px;
-      margin-left: 30px;
-     }
- 
-     .o1-title{
-      width:100%;
-      position:absolute;
-      top:403%;
-      transform: translateY(-50%);
-      text-align: center;color:beige;
-     }
-    .o1-title h3{
-    font-family: "Protest Revolution", sans-serif;
-    font-size: 180px;
-    font-weight: 300;
-    font-style: normal;
-    margin-top:40px;
-  }
- .o1-title h4{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 30px;
- }
- .o1-title p{
-     font-family: "Cantarell", sans-serif;
-     font-size: 20px;
-     
- }
- 
- .o1-continuation h4{
-   font-family: "Dancing Script", cursive;
-   text-align: left;
-   font-size:40px;
-}
- .o1-row1{
-     border: 1cm;
-     margin-left:40px;
-     box-sizing: border-box;
- }
- .o1-row2{
-     margin-left: 300px;    
- }
- .o1-row3{
-     margin-left: 300px;
- }
- .o1-row4{
-     margin-left: 300px;
- }
-
-   .aurum1{
-      width:100%;
-      margin-top: 50px;
-    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.40)) ,url("bgA1.jpg");
-    background-size:cover;
-    
-    background-position: center;
-
-   }
    
-      
-    .a1-continuation h4{
-      font-family: "Dancing Script", cursive;
-      text-align: left;
-      font-size:40px;
-   }
-
-    .a1-logo{
-      margin-top: 50px;
-      margin-left: 30px;
-     }
-     .a1-title{
-      width:100%;
-      position:absolute;
-      top:280%;
-      transform: translateY(-50%);
-      text-align: center;
-      color:beige;
-   }
-   .a1-title h4{
-      font-family: "Protest Revolution", sans-serif;
-      font-size: 180px;
-      font-weight: 300;
-      font-style: normal;
-      margin-top:110px;
-    }
-    .a1-title h3{
-      font-family: "Dancing Script", cursive;
-      font-size:40px;}
-
-.a1-title p{
-      font-family: "Cantarell", sans-serif;
-      font-size: 16px;
-   }
-   
-   .a1-row1{
-   border: 1cm;
-   margin-left:90px;
-   box-sizing: border-box;
-   display: flex;
-   flex-direction:column;
-   }
    
   
 body{
@@ -285,15 +177,7 @@ h4{
 .course-col:hover{
 box-shadow: 0 0 20px 0px goldenrod;
 }
-@media(max-width:700px) {
-   .row{
-        flex-direction:column;
-   } 
-   .course-col{
-      height: 450px;
-      width: 250px;
-   }
-}
+
 .course-col img{
    width: 90%;
 }
@@ -461,16 +345,6 @@ margin-top: 2%;
 	line-height: 2rem;
 	font-weight: 500;
 }
-@media(max-width:800px) {
-
-   .contact{
-        flex-direction:column;
-   } 
-   .continfo{
-      height: 250px;
-      width: 350px;
-   }
-}
 
 .footer{
    color: white;
@@ -525,7 +399,7 @@ div.social-media .icon:hover {
    font-size: 180px;
    font-weight: 300;
    font-style: normal;
-   margin-top:110px;
+   margin-top:80px;
  }
  .title h4{
    font-family: "Dancing Script", cursive;
@@ -595,6 +469,118 @@ div.gallery {
    color: #fff;
    margin-bottom: 5px; /* Add space between heading and border */
 }
+
+.aurum1{
+      width:100%;
+      margin-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.40)) ,url("bgA1.jpg");
+    background-size:cover;
+    
+    background-position: center;
+
+   }
+   
+      
+    .a1-continuation h4{
+      font-family: "Dancing Script", cursive;
+      text-align: left;
+      font-size:40px;
+   }
+
+    .a1-logo{
+      margin-top: 50px;
+      margin-left: 30px;
+     }
+     .a1-title{
+      width:100%;
+      position:absolute;
+      top:280%;
+      transform: translateY(-50%);
+      text-align: center;
+      color:beige;
+   }
+   .a1-title h4{
+      font-family: "Protest Revolution", sans-serif;
+      font-size: 180px;
+      font-weight: 300;
+      font-style: normal;
+      margin-top:110px;
+    }
+    .a1-title h3{
+      font-family: "Dancing Script", cursive;
+      font-size:40px;}
+
+.a1-title p{
+      font-family: "Cantarell", sans-serif;
+      font-size: 16px;
+   }
+   
+   .a1-row1{
+   border: 1cm;
+   margin-left:90px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction:column;
+   }
+   
+
+.olympus1{
+    
+      margin-top: 50px;
+      width:100%;
+      background-image:linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.2)),url("o1-bg.jpg");
+      background-size: cover;
+      background-position: center;
+   }
+   .o1-logo{
+      margin-top: 50px;
+      margin-left: 30px;
+     }
+ 
+     .o1-title{
+      width:100%;
+      position:absolute;
+      top:403%;
+      transform: translateY(-50%);
+      text-align: center;color:beige;
+     }
+    .o1-title h3{
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 180px;
+    font-weight: 300;
+    font-style: normal;
+    margin-top:40px;
+  }
+ .o1-title h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+ }
+ .o1-title p{
+     font-family: "Cantarell", sans-serif;
+     font-size: 20px;
+     
+ }
+ 
+ .o1-continuation h4{
+   font-family: "Dancing Script", cursive;
+   text-align: left;
+   font-size:40px;
+}
+ .o1-row1{
+     border: 1cm;
+     margin-left:40px;
+     box-sizing: border-box;
+ }
+ .o1-row2{
+     margin-left: 300px;    
+ }
+ .o1-row3{
+     margin-left: 300px;
+ }
+ .o1-row4{
+     margin-left: 300px;
+ }
+
 
 div.gallery-1 {
    margin-left: 50px;
