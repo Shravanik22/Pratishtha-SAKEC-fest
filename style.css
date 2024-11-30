@@ -381,7 +381,7 @@ div.social-media .icon:hover {
 
 .verve1{
    width:100%;
-   margin-top: 50px;
+   margin-top: 100px;
  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url("v1-bg.jpg");
  background-size: cover;
  background-position: center;
@@ -391,36 +391,34 @@ div.social-media .icon:hover {
    font-size: 180px;
    font-weight: 300;
    font-style: normal;
-   margin-top:80px;
+   margin-top:15px;
  }
  .title h4{
    font-family: "Dancing Script", cursive;
-   font-size:40px;}
+   font-size:30px;}
    
 .title p{
    font-family: "Cantarell", sans-serif;
-   font-size: 16px;
+   font-size: 18px;
+   margin-left: 20px;
+   margin-right: 20px;
 }
  .v1-logo{
-   margin-top: 50px;
+   margin-top: 70px;
    margin-left: 30px;
   }
   .title{
    width:100%;
    position:relative;
-   top:198%;
+   top:108%;
    transform: translateY(-50%);
    text-align: center;
    color:beige;
 }
-.continuation{
-color: antiquewhite;
-margin-top: 250px;
-width:100%;
-text-align: left;
-}
 
 div.gallery-container {
+   color: antiquewhite;
+   width:100%;
    display: flex;
    flex-wrap: nowrap; /* Ensure items stay on one line */
    gap: 50px; /* Add space between items */
@@ -486,7 +484,7 @@ div.gallery {
      .a1-title{
       width:100%;
       position:relative;
-      top:280%;
+     
       transform: translateY(-50%);
       text-align: center;
       color:beige;
@@ -496,7 +494,7 @@ div.gallery {
       font-size: 180px;
       font-weight: 300;
       font-style: normal;
-      margin-top:110px;
+      margin-top:10px;
     }
     .a1-title h3{
       font-family: "Dancing Script", cursive;
@@ -532,7 +530,6 @@ div.gallery {
      .o1-title{
       width:100%;
       position:relative;
-      top:403%;
       transform: translateY(-50%);
       text-align: center;color:beige;
      }
@@ -541,7 +538,7 @@ div.gallery {
     font-size: 180px;
     font-weight: 300;
     font-style: normal;
-    margin-top:40px;
+    margin-top:30px;
   }
  .o1-title h4{
     font-family:Arial, Helvetica, sans-serif;
