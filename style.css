@@ -562,7 +562,7 @@ div.gallery-1 {
    width: 200px;
    flex-shrink: 0;/* Prevent items from shrinking */
    padding: 10px;
-   background-color: lightpink;
+   background-color: lightgrey;
  }
  div.gallery-1:hover {
    border: 5px solid #fff;
