@@ -409,9 +409,9 @@ div.social-media .icon:hover {
   }
   .title{
    width:100%;
-   position:relative;
+   
    top:198%;
-   transform: translateY(-50%);
+   
    text-align: center;
    color:beige;
 }
